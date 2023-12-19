@@ -1,0 +1,12 @@
+apiVersion: injector.dev.shuza/v1alpha1
+kind: Injector
+metadata:
+  labels:
+    app.kubernetes.io/name: injector
+    app.kubernetes.io/instance: injector-sample
+    app.kubernetes.io/part-of: k8s-operator
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: k8s-operator
+  name: injector-sample
+spec:
+  # TODO(user): Add fields here
